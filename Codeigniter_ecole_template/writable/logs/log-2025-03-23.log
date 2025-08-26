@@ -1,0 +1,30 @@
+CRITICAL - 2025-03-23 08:53:39 --> ErrorException: Undefined variable $formation_id
+[Method: POST, Route: modifier_eleve]
+in APPPATH\Controllers\Home.php on line 64.
+ 1 APPPATH\Controllers\Home.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $formation_id', 'C:\\xampp\\htdocs\\mes_projets\\Codeigniter_ecole_template\\app\\Controllers\\Home.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->modifier_eleve()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 08:53:52 --> ErrorException: Undefined variable $formation_id
+[Method: POST, Route: modifier_eleve]
+in APPPATH\Controllers\Home.php on line 64.
+ 1 APPPATH\Controllers\Home.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $formation_id', 'C:\\xampp\\htdocs\\mes_projets\\Codeigniter_ecole_template\\app\\Controllers\\Home.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->modifier_eleve()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-23 08:54:26 --> ErrorException: Undefined variable $ajout_eleve
+[Method: POST, Route: modifier_eleve]
+in APPPATH\Controllers\Home.php on line 65.
+ 1 APPPATH\Controllers\Home.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ajout_eleve', 'C:\\xampp\\htdocs\\mes_projets\\Codeigniter_ecole_template\\app\\Controllers\\Home.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->modifier_eleve()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,86 @@
+h1{
+
+    font-size: 50px;     /*permet d'agrandire les écriture*/
+    font-weight: 1200;  /*si c'est bold au lieu de 1200 c en gras ect...*/
+    background-color: blue;
+    line-height: 50px;
+    letter-spacing: 20px;
+   
+}
+
+/*Notre paragraphe p aura une taille de 120%*/
+
+.universite {
+    color: blue;
+}
+
+
+h2 {
+
+    font-size:  2.2em;    
+    font-weight: 1200;    
+
+
+}
+.info-box {
+  background-color: #f0f8ff; /* Couleur de fond bleu clair */
+  border-style: groove; /* Bordure bleue */
+  padding: 20px; /* Espacement interne */
+  margin: 20px; /* Espacement externe */
+  border-radius: 10px; /* Coins arrondis */
+  text-align: center; /* Centrer le texte */
+}
+div {
+
+    height : 50 px;
+
+    border:1px  solid green; 
+}
+ 
+.link {
+    color: blue;
+    text-decoration: none;
+ 
+  }
+
+.link:hover {
+    color: darkblue;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+.link:active {
+    color: red;
+    background-color: lightyellow;
+  }
+.link:visited {
+    color: purple;  
+ }
+
+.link:focus {
+    outline: 2px solid orange;
+  }
+p::before {
+    content: "Note : ";
+    font-weight: bold;
+  }  
+
+  /*:active : Applique les styles lorsque l'élément est cliqué et maintenu enfoncé.
+:visited : Applique les styles après qu'un lien a été visité.
+:focus : Applique les styles lorsqu'un élément est focalisé (via le clavier).
+::before : Ajoute du contenu avant un élément, dans ce cas, le texte "Note : " avant chaque paragraphe <p>.*/
+
+#section{
+   
+  width: 350px;        /*la largeur presk la meme chose avec padding*/
+  height:  115px;     /*la hauteur*/
+  padding-top: -50px;   /*en haut mais les modification se porte a l'intérieur a l'intérieur*/
+  padding-bottom: 20px;  /* en bas*/
+  padding-left: 20px;     /*a gauche*/
+  padding-right: 20px;    /*a droite*/  
+  margin-top: 250px; /*en haut mais les modification se porte a l'extérieur*/
+  margin-bottom: 250px;
+  margin-left: 500px;
+  
+ 
+}

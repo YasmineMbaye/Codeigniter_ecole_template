@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: salmon;
+}
+header{
+    background-color: #003366;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li{
+    margin-left: 1rem;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+section{
+    margin-bottom: 3rem;
+}
+h1, h2, h3{
+    color: #003366;
+    margin-bottom: 1rem;
+}
+#Acceuil{
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 3rem;
+}
+.cta-button{
+    display: inline-block;
+    background-color: #003366;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+about-content{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.about-content img{
+    max-width: 50%;
+
+}
+.programme-item{
+    text-align: center;
+}
+.programme-item img{
+    width: 90%;
+    
+}
+.galerie-grid img{
+    width: 200px;
+    gap: 300px;
+}
+.galerie-grid{
+   
+}
+.Programme-grid{
+    border: 1px solid black;
+    display: flex;
+    gap: 200px;
+}
